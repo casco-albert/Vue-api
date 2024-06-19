@@ -1,19 +1,32 @@
-# products-vue
+# Api products-vue
 
-## Project setup
+## Inicia el proyecto descargando Node.js y npm:
 ```
-npm install
+## Instalar Vue CLI  Abre tu terminal o consola y ejecuta el siguiente comando para instalar Vue CLI globalmente:
+npm install -g @vue/cli
 ```
 
-### Compiles and hot-reloads for development
+### Crear la aplicacion Vue.js
+vue create nombre-del-proyecto
 ```
+### Navega al directorio de tu proyecto
+cd nombre-del-proyecto
+##$ Inicia el servido ejecutando el comando
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Deverias tener un resultado como este, indica que el servidor Vue.js se ejecuta en tu servidor local en el puerto 8080
 ```
-npm run build
+DONE  Compiled successfully in 4178ms
+
+App running at:
+- Local:   http://localhost:8080/
+- Network: http://192.168.1.2:8080/
+
 ```
 
-### Customize configuration
+### Configuraciones adicionales segun requerimientos y necesidades
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Descripcion de la API 
+Aplicacion de Vue.js que consume una api rest con las peticiones get, post, put y delete para gestionar los registros de la tabla productos, se utiliza librerias como bootstrapp, fontAwesome para los menus e iconos en la parte de html
