@@ -3,13 +3,13 @@
     <div class="col-lg-g offset-set-lg-2">
       <div class="table-responsive">
         <table class="table table-bordered table-hover">
-          <thead><tr><th>#</th><th>NOMBRE</th><th>DESCRIPCION</th><th>PRECIO</th><th>ACCIONES</th></tr></thead>
+          <thead><tr><th>Item</th><th>NOMBRE</th><th>DESCRIPCION</th><th>PRECIO</th><th>ACCIONES</th></tr></thead>
           <tbody class="table-group-divider" id="contenido">
             <tr v-for="prod, i in products" :key="prod.id">
-              <td>{{ (i+1) }}</td>
+              <td>N ̵ͦ  {{ (i+1) }}</td>
               <td>{{ prod.name }}</td>
               <td>{{ prod.description }}</td>
-              <td>${{ new Intl.NumberFormat('es-mx').format(prod.price) }}</td>
+              <td>${{ new Intl.NumberFormat('es-mx').format(prod.price) }}</td>   
               <td>
                 <router-link :to="{path:'edit/'+prod.id}" class="btn btn-warning">
                       <i class="fa-solid fa-edit"></i>
