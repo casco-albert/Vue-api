@@ -15,5 +15,5 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
+### Customize configuration con Alberto Casco
 See [Configuration Reference](https://cli.vuejs.org/config/).
