@@ -1,16 +1,16 @@
 # products-vue
 
-## Project setup
+## Project setup vue
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compiles and hot-reloads for development npm
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compiles and minifies for production and enterprice
 ```
 npm run build
 ```
