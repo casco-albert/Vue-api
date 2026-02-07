@@ -65,9 +65,9 @@ export default {
             if (this.name.trim() === '') {
                 show_alerta('Escribe el nombre', 'warning', 'nombre');
             } else if (this.description.trim() === '') {
-                show_alerta('Escribe la descripcion', 'warning', 'descripcion');
+                show_alerta('La Descripción del producto no puede ser vacio', 'warning', 'descripcion');
             } else if (this.price === '') {
-                show_alerta('Escribe el precio', 'warning', 'precio');
+                show_alerta('Precio no puede ser vacio', 'warning', 'precio');
             } else {
                 const parametros = {
                     name: this.name.trim(),
